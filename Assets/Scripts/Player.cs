@@ -28,11 +28,12 @@ public class Player : MonoBehaviour
 
     public float jumpForce = 2.5f;
 
-    //referencias
+    // <<< Referencias >>>
     public Rigidbody2D rb;
     public SpriteRenderer renderer;
+    public Animator animator;
 
-    //variables privadas
+    // <<< Variables Privadas >>>
     bool canJump = true;
 
     void Update()
@@ -61,18 +62,27 @@ public class Player : MonoBehaviour
             Jump();
         }
 
+        if(Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Q))
+        {
+            Attack();
+        }
+    }
+
+    public void Attack()
+    {
+        animator.SetTrigger("Attack");
     }
 
     public void Jump()
     {
         rb.AddForce(transform.up * jumpForce, forceMode);
+        animator.SetTrigger("Jump");
         canJump = false;
     }
 
     void Die()
     {
         speed = 0;
-        Debug.Log("Player has die :(, madre mia wily !!!!!!!!");
     }
 
     public bool IsAlive()

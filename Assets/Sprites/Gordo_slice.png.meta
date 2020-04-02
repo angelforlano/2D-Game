@@ -1,7 +1,34 @@
 fileFormatVersion: 2
 guid: d11b1acfc78d5e744a775f506b699349
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5270387323160455193
+    second: Gordo_slice_0
+  - first:
+      213: 896346057860797721
+    second: Gordo_slice_1
+  - first:
+      213: 5041548146255013574
+    second: Gordo_slice_2
+  - first:
+      213: 6448783190099276928
+    second: Gordo_slice_3
+  - first:
+      213: 8270736895204942361
+    second: Gordo_slice_4
+  - first:
+      213: -115916925643983797
+    second: Gordo_slice_5
+  - first:
+      213: -1591819744768365898
+    second: Gordo_slice_6
+  - first:
+      213: 2253152121391696159
+    second: Gordo_slice_7
+  - first:
+      213: 2710821246959870554
+    second: Gordo_slice_8
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -40,7 +67,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -70,9 +97,222 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Gordo_slice_0
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 1448
+        width: 297
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e79c4e37a2dbd6b0800000000000000
+      internalID: -5270387323160455193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_1
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1447
+        width: 297
+        height: 334
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9155d969df5707c00800000000000000
+      internalID: 896346057860797721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_2
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 908
+        width: 312
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c62f87e35d27f540800000000000000
+      internalID: 5041548146255013574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_3
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 893
+        width: 445
+        height: 341
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 084b06fe42eae7950800000000000000
+      internalID: 6448783190099276928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_4
+      rect:
+        serializedVersion: 2
+        x: 926
+        y: 890
+        width: 388
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912686dc26f87c270800000000000000
+      internalID: 8270736895204942361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 241
+        width: 338
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b44f8879b2e246ef0800000000000000
+      internalID: -115916925643983797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 241
+        width: 378
+        height: 367
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bae0ae3068b8e9e0800000000000000
+      internalID: -1591819744768365898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 242
+        width: 306
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19487caaedc44f10800000000000000
+      internalID: 2253152121391696159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gordo_slice_8
+      rect:
+        serializedVersion: 2
+        x: 1292
+        y: 241
+        width: 450
+        height: 357
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a52ef92cf85ce9520800000000000000
+      internalID: 2710821246959870554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
