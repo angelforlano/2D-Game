@@ -4335,7 +4335,7 @@ MonoBehaviour:
         m_CallState: 2
   speed: 4
   forceMode: 1
-  jumpForce: 2.5
+  jumpForce: 6
   rb: {fileID: 2090617149}
   renderer: {fileID: 1158021427}
   animator: {fileID: 1158021426}

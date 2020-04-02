@@ -162,7 +162,8 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Ground"))
         {
-            canJump = true;      
+            canJump = true;
+            animator.SetTrigger("Ground");
         }
     }
 }
