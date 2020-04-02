@@ -30,6 +30,7 @@ public class Player : MonoBehaviour
 
     //referencias
     public Rigidbody2D rb;
+    public SpriteRenderer renderer;
 
     //variables privadas
     bool canJump = true;
@@ -40,6 +41,16 @@ public class Player : MonoBehaviour
             return;
             
         var movimiento = Input.GetAxis("Horizontal") * speed * Time.deltaTime;
+
+        if (movimiento > 0)
+        {
+            renderer.flipX = false;
+        }
+
+        if (movimiento < 0)
+        {
+            renderer.flipX = true;
+        }
         
         var direc = new Vector3(movimiento, 0, 0);
         
@@ -137,25 +148,13 @@ public class Player : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag("Cosa1"))
-        {
-            //...
-            Destroy(other.gameObject);       
-        }
+        Debug.Log(other);
 
-        if (other.gameObject.CompareTag("Cosa2"))
+        if (other.gameObject.CompareTag("Ground"))
         {
-            //...
-            Destroy(other.gameObject);       
+            canJump = true;      
         }
-
-        if (other.gameObject.CompareTag("Cosa3"))
-        {
-            //...
-            Destroy(other.gameObject);       
-        }
-
     }
 }

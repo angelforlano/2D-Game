@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Champi
+  - Enemigo
+  - Coin
+  - Corazon
+  - Key
+  - Ground
   layers:
   - Default
   - TransparentFX
