@@ -4,15 +4,19 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    public int minDamage = 1;
+    public int maxDamage = 10;
     public float moveSpeed = 2;
     public float moveTime = 2;
     public SpriteRenderer renderer;
 
+    int damage;
     bool direcc;
-
 
     void Start()
     {
+        damage = Random.Range(minDamage, maxDamage);
+
         StartCoroutine(Move());
     }
 
@@ -38,5 +42,10 @@ public class Enemy : MonoBehaviour
             direcc = true;
             yield return new WaitForSeconds(moveTime);
         }
+    }
+
+    public int GetDamage()
+    {
+        return damage;
     }
 }

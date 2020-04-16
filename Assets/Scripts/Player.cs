@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
     void Die()
     {
         speed = 0;
+        //animator.SetTrigger("Die");
     }
 
     public bool IsAlive()
@@ -132,7 +133,11 @@ public class Player : MonoBehaviour
 
         if (other.gameObject.CompareTag("Enemigo"))
         {
-            TakeDamage(75);
+            // Este "gameObject" tiene toda la info (component) del objecto...
+            // other.gameObject
+            
+            // GetDamage() de ese enemigo.
+            TakeDamage(other.gameObject.GetComponent<Enemy>().GetDamage());
             Destroy(other.gameObject);   
         }
 
